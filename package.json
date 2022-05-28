@@ -2,7 +2,7 @@
   "name": "aylok1n",
   "version": "0.1.0",
   "homepage": "https://aylok1n.github.io/aylok1n-portfolio",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -27,7 +27,9 @@
     "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix",
     "prettier": "prettier --write src/**/*.js",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
   },
   "husky": {
     "hooks": {
@@ -74,6 +76,7 @@
     "gh-pages": "^4.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.2",
+    "pinst": "^3.0.0",
     "postcss": "^8.4.14",
     "prettier": "2.6.2",
     "tailwindcss": "^3.0.24"
