@@ -1,5 +1,5 @@
 import React, { useCallback, useContext, useRef, useState } from 'react';
-import { ScrollContex } from '../../utils/scrollObserver';
+import { ScrollContext } from '../../utils/scrollObserver';
 import background from '../../assets/video/background.m4v';
 import backgroundWebm from '../../assets/video/background.webm';
 import IconDown from '../../assets/images/icon-arrow-down.png';
@@ -7,7 +7,7 @@ import IconDown from '../../assets/images/icon-arrow-down.png';
 const Header: React.FC = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const refContainer = useRef<HTMLDivElement>(null);
-  const { scrollY } = useContext(ScrollContex);
+  const { scrollY } = useContext(ScrollContext);
 
   let progress = 0;
   const { current: elContainer } = refContainer;

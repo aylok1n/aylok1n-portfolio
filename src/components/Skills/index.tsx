@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from 'react';
-import { ScrollContex } from '../../utils/scrollObserver';
+import { ScrollContext } from '../../utils/scrollObserver';
 import './skills.css';
 
 const opacityForBlock = (sectionProgress: number, blockNo: number) => {
@@ -9,10 +9,10 @@ const opacityForBlock = (sectionProgress: number, blockNo: number) => {
 };
 
 const Skills: React.FC = () => {
-  const { scrollY } = useContext(ScrollContex);
+  const { scrollY } = useContext(ScrollContext);
   const refContainer = useRef<HTMLDivElement>(null);
 
-  const numOfPages = 2;
+  const numOfPages = 3;
   let progress = 0;
 
   const { current: elContainer } = refContainer;
