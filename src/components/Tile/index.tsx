@@ -81,6 +81,7 @@ export const Tile: React.FC<Props> = ({ page, renderContent }) => {
       className="absolute top-0 w-full"
       style={{
         opacity,
+        pointerEvents: progress <= 0 || progress >= 1 ? 'none' : 'unset',
       }}
     >
       {renderContent({ progress })}
