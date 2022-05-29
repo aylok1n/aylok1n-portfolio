@@ -1,15 +1,39 @@
 {
   "files": {
-    "main.css": "/aylok1n-portfolio/static/css/main.154c9cf6.css",
-    "main.js": "/aylok1n-portfolio/static/js/main.df00f348.js",
+    "main.css": "/aylok1n-portfolio/static/css/main.06b71bef.css",
+    "main.js": "/aylok1n-portfolio/static/js/main.dc3613a7.js",
     "static/media/background.m4v": "/aylok1n-portfolio/static/media/background.0bcaa901daabf66de84d.m4v",
     "static/media/background.webm": "/aylok1n-portfolio/static/media/background.06d926d841f6053574d1.webm",
+    "static/media/GoogleSans-Italic.eot": "/aylok1n-portfolio/static/media/GoogleSans-Italic.69182ce712a494f8f3ae.eot",
+    "static/media/GoogleSans-MediumItalic.eot": "/aylok1n-portfolio/static/media/GoogleSans-MediumItalic.5aad00dd3b18365347ca.eot",
+    "static/media/GoogleSans-Italic.ttf": "/aylok1n-portfolio/static/media/GoogleSans-Italic.bb82826aa2d664e02585.ttf",
+    "static/media/GoogleSans-BoldItalic.eot": "/aylok1n-portfolio/static/media/GoogleSans-BoldItalic.e8f006f2cf536e8e392b.eot",
+    "static/media/GoogleSans-MediumItalic.ttf": "/aylok1n-portfolio/static/media/GoogleSans-MediumItalic.1fb37d8d24444c9ff078.ttf",
+    "static/media/GoogleSans-BoldItalic.ttf": "/aylok1n-portfolio/static/media/GoogleSans-BoldItalic.9e84d54052993ff81a14.ttf",
+    "static/media/GoogleSans-Regular.eot": "/aylok1n-portfolio/static/media/GoogleSans-Regular.1e9a2f618a7990cfee96.eot",
+    "static/media/GoogleSans-Regular.ttf": "/aylok1n-portfolio/static/media/GoogleSans-Regular.6c1be5cadff6ad16ad5f.ttf",
+    "static/media/GoogleSans-Medium.eot": "/aylok1n-portfolio/static/media/GoogleSans-Medium.6a348b13589fb870424f.eot",
+    "static/media/GoogleSans-Medium.ttf": "/aylok1n-portfolio/static/media/GoogleSans-Medium.2ecb22264e6eff1b65c2.ttf",
+    "static/media/GoogleSans-Bold.eot": "/aylok1n-portfolio/static/media/GoogleSans-Bold.9e5ca2a419661230e76a.eot",
+    "static/media/GoogleSans-Bold.ttf": "/aylok1n-portfolio/static/media/GoogleSans-Bold.8d814c217077966d0777.ttf",
+    "static/media/GoogleSans-MediumItalic.woff": "/aylok1n-portfolio/static/media/GoogleSans-MediumItalic.ced93328f40243801165.woff",
+    "static/media/GoogleSans-BoldItalic.woff": "/aylok1n-portfolio/static/media/GoogleSans-BoldItalic.1deb1e7828154bf9b644.woff",
+    "static/media/GoogleSans-Italic.woff": "/aylok1n-portfolio/static/media/GoogleSans-Italic.957b05fc5672a97cdf37.woff",
+    "static/media/GoogleSans-Regular.woff": "/aylok1n-portfolio/static/media/GoogleSans-Regular.af22ed9938d1f3ec346c.woff",
+    "static/media/GoogleSans-Medium.woff": "/aylok1n-portfolio/static/media/GoogleSans-Medium.20a76f9128def8ff6c4e.woff",
+    "static/media/GoogleSans-Bold.woff": "/aylok1n-portfolio/static/media/GoogleSans-Bold.3b37e86bcf143949bbb7.woff",
+    "static/media/GoogleSans-BoldItalic.woff2": "/aylok1n-portfolio/static/media/GoogleSans-BoldItalic.675e398de808b537b166.woff2",
+    "static/media/GoogleSans-Italic.woff2": "/aylok1n-portfolio/static/media/GoogleSans-Italic.2be1a94735d7dcf7b5cd.woff2",
+    "static/media/GoogleSans-MediumItalic.woff2": "/aylok1n-portfolio/static/media/GoogleSans-MediumItalic.a3807d9b6888e8c30b42.woff2",
+    "static/media/GoogleSans-Regular.woff2": "/aylok1n-portfolio/static/media/GoogleSans-Regular.803df2dac83ef67c1db4.woff2",
+    "static/media/GoogleSans-Medium.woff2": "/aylok1n-portfolio/static/media/GoogleSans-Medium.584474a6cc9c52fd89d6.woff2",
+    "static/media/GoogleSans-Bold.woff2": "/aylok1n-portfolio/static/media/GoogleSans-Bold.296439eb0015e851a1a9.woff2",
     "index.html": "/aylok1n-portfolio/index.html",
-    "main.154c9cf6.css.map": "/aylok1n-portfolio/static/css/main.154c9cf6.css.map",
-    "main.df00f348.js.map": "/aylok1n-portfolio/static/js/main.df00f348.js.map"
+    "main.06b71bef.css.map": "/aylok1n-portfolio/static/css/main.06b71bef.css.map",
+    "main.dc3613a7.js.map": "/aylok1n-portfolio/static/js/main.dc3613a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.154c9cf6.css",
-    "static/js/main.df00f348.js"
+    "static/css/main.06b71bef.css",
+    "static/js/main.dc3613a7.js"
   ]
 }
