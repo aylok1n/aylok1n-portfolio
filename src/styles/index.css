@@ -3,11 +3,16 @@
 @tailwind utilities;
 @import url(../assets//fonts/stylesheet.css);
 
+#viewport {
+  -webkit-overflow-scrolling: touch;
+}
+
 body {
   margin: 0;
   font-family: 'Google Sans';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: none;
 }
 
 code {
