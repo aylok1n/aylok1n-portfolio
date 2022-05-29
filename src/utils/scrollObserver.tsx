@@ -4,7 +4,7 @@ interface ScrollValue {
   scrollY: number;
 }
 
-export const ScrollContex = React.createContext<ScrollValue>({
+export const ScrollContext = React.createContext<ScrollValue>({
   scrollY: 0,
 });
 
@@ -26,9 +26,9 @@ const ScrollObserver: React.FC<Props> = ({ children }) => {
 
   return (
     // eslint-disable-next-line react/jsx-no-constructed-context-values
-    <ScrollContex.Provider value={{ scrollY }}>
+    <ScrollContext.Provider value={{ scrollY }}>
       {children}
-    </ScrollContex.Provider>
+    </ScrollContext.Provider>
   );
 };
 
