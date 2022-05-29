@@ -59,7 +59,7 @@ interface Props {
 
 export const TileBackground: React.FC<{ children?: React.ReactNode }> = ({
   children,
-}) => <div className="absolute w-full h-full bg-white ">{children}</div>;
+}) => <div className="absolute w-full h-full">{children}</div>;
 
 export const TileContent: React.FC<{ children?: React.ReactNode }> = ({
   children,

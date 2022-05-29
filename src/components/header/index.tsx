@@ -28,6 +28,7 @@ const Header: React.FC = () => {
       }}
     >
       <video
+        preload="metadata"
         autoPlay
         loop
         muted
@@ -38,6 +39,7 @@ const Header: React.FC = () => {
       </video>
       <video
         autoPlay
+        preload="metadata"
         loop
         muted
         playsInline
