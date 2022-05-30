@@ -106,13 +106,23 @@ const Works: React.FC = () => (
         renderContent={({ progress }) => (
           <WorkContainer>
             <WorkLeft progress={progress}>
-              <div className="text-4xl font-medium tracking-tight text-center underline cursor-pointer md:text-5xl">
+              <div className="text-4xl font-medium tracking-tight text-center md:text-5xl">
+                А это вот я в: <br />
                 <a
+                  className="underline cursor-pointer"
                   href="https://vk.com/aylok1n"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  А это вот я
+                  vk
+                </a> {', '}
+                <a
+                  className="underline cursor-pointer"
+                  href="https://instagram.com/aylok1n"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  instagram
                 </a>
               </div>
             </WorkLeft>
