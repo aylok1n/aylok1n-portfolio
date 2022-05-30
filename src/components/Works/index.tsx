@@ -106,7 +106,7 @@ const Works: React.FC = () => (
         renderContent={({ progress }) => (
           <WorkContainer>
             <WorkLeft progress={progress}>
-              <div className="text-4xl font-medium tracking-tight underline text-center cursor-pointer md:text-5xl">
+              <div className="text-4xl font-medium tracking-tight text-center underline cursor-pointer md:text-5xl">
                 <a
                   href="https://vk.com/aylok1n"
                   rel="noreferrer"
