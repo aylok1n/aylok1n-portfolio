@@ -6,6 +6,7 @@ Disallow: /js/
 
 Disallow: /css/
 
+Sitemap: /sitemap.xml
 
 
 User-agent: Googlebot
