@@ -1,3 +1,25 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+
+Allow: /images/
+
+Disallow: /js/
+
+Disallow: /css/
+
+
+
+User-agent: Googlebot
+
+Allow: /
+
+
+
+User-agent: Yandex
+
+Allow: /images/
+
+Disallow: /js/
+
+Disallow: /css/
+
+Host: aylok1n.ru
