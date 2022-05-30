@@ -6,6 +6,7 @@ Disallow: /js/
 
 Disallow: /css/
 
+Sitemap: https://www.aylok1n.ru/sitemap.xml
 
 
 User-agent: Googlebot
