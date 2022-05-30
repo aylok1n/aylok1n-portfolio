@@ -51,7 +51,7 @@ const Header: React.FC = () => {
         className="flex z-10 flex-col flex-1 justify-center items-center p-12 font-bold text-center
       text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)]"
       >
-        <h1 className="mb-6 text-4xl xl:text-5xl">AYLOK1N</h1>
+        <h1 className="mb-6 font-action-man text-6xl xl:text-7xl">aylok1n</h1>
         <h2 className="mb-2 text-2xl tracking-tight xl:text-3xl">
           <span>Сайт портфолио</span>
         </h2>
