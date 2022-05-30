@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.313cbb7a.css",
-    "main.js": "/static/js/main.d8f3866a.js",
+    "main.css": "/static/css/main.09a3a286.css",
+    "main.js": "/static/js/main.896ee63c.js",
     "static/media/background.m4v": "/static/media/background.0bcaa901daabf66de84d.m4v",
     "static/media/background.webm": "/static/media/background.06d926d841f6053574d1.webm",
     "static/media/dreamshare.png": "/static/media/dreamshare.61d533e954e1e86b9b94.png",
@@ -18,6 +18,7 @@
     "static/media/GoogleSans-Medium.ttf": "/static/media/GoogleSans-Medium.2ecb22264e6eff1b65c2.ttf",
     "static/media/GoogleSans-Bold.eot": "/static/media/GoogleSans-Bold.9e5ca2a419661230e76a.eot",
     "static/media/GoogleSans-Bold.ttf": "/static/media/GoogleSans-Bold.8d814c217077966d0777.ttf",
+    "static/media/ActionMan-Shaded.ttf": "/static/media/ActionMan-Shaded.f13584db6e648db0aa3f.ttf",
     "static/media/GoogleSans-MediumItalic.woff": "/static/media/GoogleSans-MediumItalic.ced93328f40243801165.woff",
     "static/media/GoogleSans-BoldItalic.woff": "/static/media/GoogleSans-BoldItalic.1deb1e7828154bf9b644.woff",
     "static/media/GoogleSans-Italic.woff": "/static/media/GoogleSans-Italic.957b05fc5672a97cdf37.woff",
@@ -33,11 +34,11 @@
     "static/media/GoogleSans-Medium.woff2": "/static/media/GoogleSans-Medium.584474a6cc9c52fd89d6.woff2",
     "static/media/GoogleSans-Bold.woff2": "/static/media/GoogleSans-Bold.296439eb0015e851a1a9.woff2",
     "index.html": "/index.html",
-    "main.313cbb7a.css.map": "/static/css/main.313cbb7a.css.map",
-    "main.d8f3866a.js.map": "/static/js/main.d8f3866a.js.map"
+    "main.09a3a286.css.map": "/static/css/main.09a3a286.css.map",
+    "main.896ee63c.js.map": "/static/js/main.896ee63c.js.map"
   },
   "entrypoints": [
-    "static/css/main.313cbb7a.css",
-    "static/js/main.d8f3866a.js"
+    "static/css/main.09a3a286.css",
+    "static/js/main.896ee63c.js"
   ]
 }
