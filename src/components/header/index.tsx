@@ -22,7 +22,8 @@ const Header: React.FC = () => {
   return (
     <div
       ref={refContainer}
-      className="flex sticky top-0 -z-10 flex-col justify-center items-center min-h-screen"
+      className="flex sticky top-0 -z-10 flex-col justify-center items-center min-h-screen
+      bg-gradient-to-bl from-gray-200 via-gray-400  to-gray-800"
       style={{
         transform: `translateY(-${progress * 20}vh)`,
       }}
