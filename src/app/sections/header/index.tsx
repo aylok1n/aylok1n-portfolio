@@ -1,8 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import { BsChevronDown } from 'react-icons/bs';
-import { ScrollContext } from '../../utils/scrollObserver';
-import background from '../../assets/video/background.m4v';
-import backgroundWebm from '../../assets/video/background.webm';
+
+import { ScrollContext } from '../../../utils/scrollObserver';
 
 const Header: React.FC = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -36,7 +35,7 @@ const Header: React.FC = () => {
         playsInline
         className="object-cover absolute w-full h-full"
       >
-        <source src={background} type="video/m4v; codecs=hvc1" />
+        <source src="/video/background.m4v" type="video/m4v; codecs=hvc1" />
       </video>
       <video
         autoPlay
@@ -46,15 +45,16 @@ const Header: React.FC = () => {
         playsInline
         className="object-cover absolute w-full h-full"
       >
-        <source src={backgroundWebm} type="video/webm; codecs=vp9" />
+        <source src="/video/background.webm" type="video/webm; codecs=vp9" />
       </video>
       <div
         className="flex flex-col flex-1 justify-center items-center p-12 font-bold text-center
       text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)]"
       >
-        <h1 className="mb-6 font-action-man text-6xl xl:text-7xl">aylok1n</h1>
+        <h1 className="mb-6 font-action-man text-6xl xl:text-7xl">aylok1n</h1>{' '}
         <h2 className="mb-2 text-2xl tracking-tight xl:text-3xl">
-          <span>Сайт портфолио</span>
+          <p>Сайт портфолио</p>
+          <p>Николая Кулигина</p>
         </h2>
       </div>
       <div

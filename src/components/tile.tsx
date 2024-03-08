@@ -1,5 +1,6 @@
 import React, { useContext, useRef } from 'react';
-import { ScrollContext } from '../../utils/scrollObserver';
+
+import { ScrollContext } from '../utils/scrollObserver';
 
 interface WrapperProps {
   numOfPages: number;
@@ -78,7 +79,7 @@ export const Tile: React.FC<Props> = ({ page, renderContent }) => {
   return (
     <div
       ref={refContainer}
-      className="absolute top-0 w-full"
+      className="absolute top-0 w-full p-10"
       style={{
         opacity,
         pointerEvents: progress <= 0 || progress >= 1 ? 'none' : 'unset',

@@ -1,7 +1,8 @@
+@import url(/fonts/stylesheet.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url(../assets/fonts/stylesheet.css);
 
 #viewport {
   -webkit-overflow-scrolling: touch;

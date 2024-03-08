@@ -39,9 +39,9 @@ const getAverageRGB = (imgEl: HTMLImageElement) => {
   }
 
   // ~~ used to floor values
-  rgb.r = Math.floor(rgb.r / count);
-  rgb.g = Math.floor(rgb.g / count);
-  rgb.b = Math.floor(rgb.b / count);
+  rgb.r = ~~(rgb.r / count);
+  rgb.g = ~~(rgb.g / count);
+  rgb.b = ~~(rgb.b / count);
 
   return rgb;
 };
@@ -62,7 +62,7 @@ const ShadowImage: React.FC<Props> = (props) => {
       const avgColor = `rgb(${r},${g},${b})`;
       if (color !== avgColor) setColor(`rgb(${r},${g},${b})`);
     }
-  }, [imageRef.current]);
+  }, [imageRef.current, color]);
 
   return (
     <div

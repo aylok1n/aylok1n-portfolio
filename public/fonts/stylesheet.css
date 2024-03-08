@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'Google Sans';
   src: url('GoogleSans-MediumItalic.eot');
-  src: local('Google Sans Medium Italic'), local('GoogleSans-MediumItalic'),
+  src:
+    local('Google Sans Medium Italic'),
+    local('GoogleSans-MediumItalic'),
     url('GoogleSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
     url('GoogleSans-MediumItalic.woff2') format('woff2'),
     url('GoogleSans-MediumItalic.woff') format('woff'),
@@ -13,7 +15,9 @@
 @font-face {
   font-family: 'Google Sans';
   src: url('GoogleSans-Bold.eot');
-  src: local('Google Sans Bold'), local('GoogleSans-Bold'),
+  src:
+    local('Google Sans Bold'),
+    local('GoogleSans-Bold'),
     url('GoogleSans-Bold.eot?#iefix') format('embedded-opentype'),
     url('GoogleSans-Bold.woff2') format('woff2'),
     url('GoogleSans-Bold.woff') format('woff'),
@@ -25,7 +29,9 @@
 @font-face {
   font-family: 'Google Sans';
   src: url('GoogleSans-Italic.eot');
-  src: local('Google Sans Italic'), local('GoogleSans-Italic'),
+  src:
+    local('Google Sans Italic'),
+    local('GoogleSans-Italic'),
     url('GoogleSans-Italic.eot?#iefix') format('embedded-opentype'),
     url('GoogleSans-Italic.woff2') format('woff2'),
     url('GoogleSans-Italic.woff') format('woff'),
@@ -37,7 +43,9 @@
 @font-face {
   font-family: 'Google Sans';
   src: url('GoogleSans-Medium.eot');
-  src: local('Google Sans Medium'), local('GoogleSans-Medium'),
+  src:
+    local('Google Sans Medium'),
+    local('GoogleSans-Medium'),
     url('GoogleSans-Medium.eot?#iefix') format('embedded-opentype'),
     url('GoogleSans-Medium.woff2') format('woff2'),
     url('GoogleSans-Medium.woff') format('woff'),
@@ -49,7 +57,9 @@
 @font-face {
   font-family: 'Google Sans';
   src: url('GoogleSans-Regular.eot');
-  src: local('Google Sans Regular'), local('GoogleSans-Regular'),
+  src:
+    local('Google Sans Regular'),
+    local('GoogleSans-Regular'),
     url('GoogleSans-Regular.eot?#iefix') format('embedded-opentype'),
     url('GoogleSans-Regular.woff2') format('woff2'),
     url('GoogleSans-Regular.woff') format('woff'),
@@ -61,7 +71,9 @@
 @font-face {
   font-family: 'Google Sans';
   src: url('GoogleSans-BoldItalic.eot');
-  src: local('Google Sans Bold Italic'), local('GoogleSans-BoldItalic'),
+  src:
+    local('Google Sans Bold Italic'),
+    local('GoogleSans-BoldItalic'),
     url('GoogleSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
     url('GoogleSans-BoldItalic.woff2') format('woff2'),
     url('GoogleSans-BoldItalic.woff') format('woff'),
@@ -72,7 +84,8 @@
 
 @font-face {
   font-family: 'Action Man Shaded';
-  src: url('ActionMan-Shaded.ttf') format('embedded-opentype'),
+  src:
+    url('ActionMan-Shaded.ttf') format('embedded-opentype'),
     url('ActionMan-Shaded.ttf') format('woff2'),
     url('ActionMan-Shaded.ttf') format('woff'),
     url('ActionMan-Shaded.ttf') format('truetype');
